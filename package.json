@@ -1,0 +1,49 @@
+{
+  "name": "project-front-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clear": "rimraf -rf dist/",
+    "clear:all": "rimraf -rf node_modules/ && npm run clear",
+    "serve": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@lui/lui": "^1.1.1",
+    "axios": "^0.19.2",
+    "cookie": "^0.4.0",
+    "core-js": "^3.4.3",
+    "element-ui": "^2.13.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.15",
+    "mockjs": "^1.1.0",
+    "qs": "^6.9.1",
+    "vue": "^2.6.10",
+    "vue-bus": "^1.2.1",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lint-staged": "^9.4.3",
+    "node-sass": "^4.13.0",
+    "postcss-pxtorem": "^5.1.1",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^8.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

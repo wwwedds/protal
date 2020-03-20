@@ -1,0 +1,86 @@
+.aside {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+}
+.aside .lui-menu--collapse {
+  width: 0;
+  overflow: hidden;
+}
+.aside .lui-menu {
+  border-right: none;
+}
+.aside .logo {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.aside .logo .text-span {
+  color: #d4a266;
+  display: block;
+}
+.aside .logo .text-span .logo-img-big {
+  max-width: 156px;
+  margin-left: -20px;
+  height: auto;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out;
+}
+.aside .logo .img-span {
+  display: block;
+}
+.aside .logo .img-span .logo-img {
+  max-width: 25px;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out;
+}
+.aside .logo .img-span .small-img {
+  max-width: 55px;
+}
+.aside .first-menu {
+  width: 64px;
+  background: #212431;
+  color: #d9d9d9;
+  text-align: center;
+}
+.aside .first-menu ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  opacity: 0.55;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.aside .first-menu ul li:hover {
+  background: #3c6ef0;
+  color: #fff;
+  opacity: 0.8;
+}
+.aside .first-menu ul li.active {
+  background: #3c6ef0;
+  color: #fff;
+  opacity: 1;
+}
+.aside .first-menu ul li .iconfont {
+  font-size: 20px;
+}
+.aside .first-menu ul li span {
+  letter-spacing: 0;
+}
+.aside .lui-menu-vertical:not(.lui-menu--collapse) {
+  width: 220px;
+}
+.lui-menu-item i,
+.lui-submenu i {
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: middle;
+}

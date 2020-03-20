@@ -1,0 +1,111 @@
+.lui-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 1;
+  background-color: #3c6ef0;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+.lui-header .header-controller {
+  overflow: hidden;
+  padding: 0 15px;
+}
+.lui-header .header-controller ul {
+  font-size: 0;
+}
+.lui-header .header-controller ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.lui-header .header-controller ul li a {
+  height: 54px;
+  line-height: 54px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-top: 2px solid #3c6ef0;
+  transition: all 0.6s;
+}
+.lui-header .header-controller ul li a:hover {
+  border-top: 2px solid #ffffff;
+}
+.lui-header .header-controller ul li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.lui-header .header-controller .hd-ct-left {
+  float: left;
+}
+.lui-header .header-controller .hd-ct-left .hd-logo-wrp .logo-img-box {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #ffffff;
+}
+.lui-header
+  .header-controller
+  .hd-ct-left
+  .hd-logo-wrp
+  .logo-img-box:last-child {
+  border: none;
+}
+.lui-header .header-controller .hd-ct-left .hd-logo-wrp .logo-img-box img {
+  height: 20px;
+}
+.lui-header .header-controller .hd-ct-left a {
+  line-height: 56px;
+  height: 56px;
+}
+.lui-header .header-controller .hd-ct-right {
+  float: right;
+}
+.lui-header .header-controller .hd-ct-right .search-input {
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.lui-header .header-controller .hd-ct-right input::-webkit-input-placeholder {
+  color: #f2f2f2;
+}
+.lui-header .header-controller .hd-ct-right input:-moz-placeholder {
+  color: #f2f2f2;
+}
+.lui-header .header-controller .hd-ct-right input::-moz-placeholder {
+  color: #f2f2f2;
+}
+.lui-header .header-controller .hd-ct-right input:-ms-input-placeholder {
+  color: #f2f2f2;
+}
+.lui-header .header-controller .hd-ct-right .dropdown-box .iconfont {
+  margin: 0;
+  border-top: none;
+}
+.lui-header .header-controller .hd-ct-right .dropdown-box .user-name,
+.lui-header .header-controller .hd-ct-right .dropdown-box .adSys-down {
+  font-size: 14px;
+  font-weight: normal;
+}
+.lui-header .header-controller .hd-ct-right .dropdown-box .user-name {
+  padding: 0 5px;
+}
+.lui-header .bread-crumb {
+  padding: 0 15px;
+  background-color: #ffffff;
+}
+.lui-header .bread-crumb .lui-breadcrumb {
+  line-height: 50px;
+}

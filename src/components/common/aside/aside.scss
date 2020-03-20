@@ -1,0 +1,87 @@
+.aside {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 2px 0 8px 0 rgba(0,0,0,0.08);
+  display: flex;
+  .lui-menu--collapse {
+    width: 0;
+    overflow: hidden;
+  }
+  .lui-menu {
+    border-right: none
+  }
+  .logo {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    .text-span {
+      color: #d4a266;
+      display: block;
+      .logo-img-big {
+        max-width: 156px;
+        margin-left: -20px;
+        height: auto;
+        vertical-align: middle;
+        transition: all .3s ease-in-out;
+      }
+    }
+    .img-span {
+      display: block;
+      .logo-img {
+        max-width: 25px;
+        vertical-align: middle;
+        transition: all .3s ease-in-out;
+      }
+      .small-img {
+        max-width: 55px;
+      }
+    }
+  }
+  .first-menu {
+    width: 64px;
+    background: #212431;
+    color: #D9D9D9;
+    text-align: center;
+    ul {
+      li {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 0;
+        opacity: 0.55;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+          background: #3C6EF0;
+          color: #fff;
+          opacity: .8;
+        }
+        &.active {
+          background: #3C6EF0;
+          color: #fff;
+          opacity: 1;
+        }
+        .iconfont {
+          font-size: 20px;
+        }
+        span {
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  .lui-menu-vertical:not(.lui-menu--collapse) {
+    width: 220px;
+  }
+}
+.lui-menu-item i, .lui-submenu i {
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: middle;
+}

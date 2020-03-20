@@ -1,0 +1,114 @@
+.lui-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 1;
+  background-color: #3C6EF0;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+  transition: all .3s ease-in-out;
+  .header-controller {
+    overflow: hidden;
+    padding: 0 15px;
+    line-height: 54px;
+    ul {
+      font-size: 0;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        a {
+          height: 54px;
+          line-height: 54px;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 15px;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: bold;
+          border-top: 2px solid #3C6EF0;
+          transition: all .6s;
+          &:hover {
+            border-top: 2px solid #ffffff;
+          }
+        }
+        span {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+    .hd-ct-left {
+      float: left;
+      .hd-logo-wrp {
+        .logo-img-box {
+          display: inline-block;
+          padding: 0 10px;
+          border-right: 1px solid #ffffff;
+          &:last-child {
+            border: none;
+          }
+          img {
+            height: 20px;
+          }
+        }
+      }
+      a {
+        line-height: 56px;
+        height: 56px;
+      }
+    }
+    .hd-ct-right {
+      float: right;
+      .search-input {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        color: #ffffff;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+      }
+      input::-webkit-input-placeholder {
+        color: #f2f2f2;
+      }
+      
+      input:-moz-placeholder {
+        color: #f2f2f2;
+      }
+      
+      input::-moz-placeholder {
+        color: #f2f2f2;
+      }
+      
+      input:-ms-input-placeholder {
+        color: #f2f2f2;
+      }
+      .dropdown-box {
+        .iconfont {
+          margin: 0;
+          border-top: none;
+        }
+        .user-name, .adSys-down {
+          font-size: 14px;
+          font-weight: normal;
+        }
+        .user-name {
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+  .bread-crumb {
+    padding: 0 15px;
+    background-color: #ffffff;
+    .lui-breadcrumb {
+      line-height: 50px;
+    }
+  }
+}
